@@ -44,9 +44,7 @@
           </td>
           <td>
             {!! Form::open(array('route' => array('lists.destroy', $list->id), 'method' => 'delete')) !!}
-              <button type="submit" class="btn btn-success" href="{{ URL::route('lists.destroy', $list->id) }}" title="Delete list">
-              Delete
-              </button>
+              <button type="submit" class="btn btn-success" title="Delete list">Delete</button>
             {!! Form::close() !!}
           </td>
         </tr>
